@@ -1,24 +1,27 @@
 body{
-    background-color: rgb(217, 241, 181);
+    background-color: azure; 
+}
+
+.image{
+    width: 70px; display: block; margin-left: auto
+}
+
+input{
+    padding: px; margin-bottom: 10px;
 }
 
 h1{
-    color: rgb(136, 2, 96);
+    margin: 0px; border: 3; padding: px; color: green;
 }
 
 p{
-    text-align: center; font-size: 26px; font-family: Georgia, 'Times New Roman', Times, serif; margin-bottom: 10px;
-}
-label{
-     font-weight: bold; font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
 }
 
-input, select{
-    margin-top: 8px; background-color: white;
+h3{
+    margin: 0px;
 }
 
 button{
-    background-color: rgb(241, 221, 241); border-radius: 20px; padding: 7px; font-weight: bolder; margin: 150px; margin-top: 30px;
+    background-color: rgb(160, 233, 160);
 }
-
-
