@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  color: rgb(63, 63, 121);
+  color: rgba(219, 20, 20, 0.925);
   text-align: center;
 }
 
@@ -27,7 +27,11 @@ tr {
 }
 
 thead {
-  background-color: rgb(20, 168, 226);
+  background-color: rgba(255, 0, 0, 0.842);
+}
+
+.red{
+  border: 2px solid re
 }
 
 .begin {
@@ -36,4 +40,22 @@ thead {
 
 .end {
   border-top-right-radius: 20px;
+}
+
+.container{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  width: 70px;
+  height: 60px;
+  border-radius:50%;
+  margin: 0px 20px;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
 }
