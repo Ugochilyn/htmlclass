@@ -1,61 +1,40 @@
-body {
-  color: white ;
-  background-color: azure;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.637)), url("./doctor.jpg/doctor.jpg");
+body{
+  background-color: #FFCB23;
 }
 
-h1 {
-  color: rgba(219, 20, 20, 0.925);
-  text-align: center;
+td{
+  background-color: rgba(255, 255, 255, 0.753); font-size: large; 
+  
+  
 }
 
-table,
-th,
-td {
-  padding: 6px;
-  border-collapse: collapse;
+p{
+  background-color: black; color: white;
+  width: 350px;
+}
+
+.line{
+
+}
+
+table{
+  height: 20vh; width: 65vw;
+  background-color: white;
+  
+}
+
+th{
   text-align: left;
-
 }
 
-th,
-tr {
-  margin: 0;
-  padding: 20px;
+.p2{
+  padding: 15px; margin-bottom: 0px;
 }
 
-thead {
-  background-color: rgba(255, 0, 0, 0.842);
+.ashcolor{
+  background-color: rgba(0, 0, 0, 0.281);
 }
 
-.red{
-  border: 2px solid re
-}
-
-.begin {
-  border-top-left-radius: 20px;
-}
-
-.end {
-  border-top-right-radius: 20px;
-}
-
-.container{
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-}
-
-img{
-  width: 70px;
-  height: 60px;
-  border-radius:50%;
-  margin: 0px 20px;
-}
-
-.logo{
-  display: flex;
-  justify-content: center;
+.ashlight{
+  background-color: rgba(0, 0, 0, 0.116);
 }

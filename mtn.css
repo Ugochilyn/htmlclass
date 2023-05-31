@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+td {
+  background-color: rgba(255, 255, 255, 0.753);
+  font-size: large;
+}
+p {
+  background-color: black;
+  color: white;
+  margin: 5px 0 0 0;
+}
+
+.line {
+}
+
+table {
+  height: 20vh;
+  width: 28vw;
+  background-color: white;
+}
+
+th {
+  text-align: left;
+}
+
+.p2 {
+  padding: 15px;
+  margin-bottom: 0px;
+}
+
+.ashcolor {
+  background-color: rgba(0, 0, 0, 0.281);
+}
+
+.ashlight {
+  background-color: rgba(0, 0, 0, 0.116);
+}
+
+.container {
+    background-color: #ffcb23;
+    padding: 10px;
+}
+
+.error {
+  border: 2px solid red;
+  width: fit-content;
+}
+
+.error2 {
+  border: 2px solid red;
+}
