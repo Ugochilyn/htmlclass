@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(215, 226, 235);
+    color: white;
+
+}
+
+.maindiv{
+    
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+
+}
+
+.box2{
+    border: 5px solid rgb(4, 248, 4);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.div1{
+    width: 1300px;
+    height:700px;
+    background-color: black;
+    padding: 25px;
+}
+
+ul{
+    list-style: none; 
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(4, 248, 4);
+    text-decoration: underline;
+}
+.frame{
+    border: 2px solid red;
+}
+
+p{
+    text-align: left;
+    max-width: 350px;
+    font-size: 20px;
+
+}
+
+h2{
+    max-width: 450px;
+    font-size: 37px;
+}
+
+.btn{
+    background-color: transparent;
+    color: rgb(4, 248, 4);
+    border: 2px solid rgb(4, 248, 4);
+    padding: 0 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 5px
+
+    
+}
